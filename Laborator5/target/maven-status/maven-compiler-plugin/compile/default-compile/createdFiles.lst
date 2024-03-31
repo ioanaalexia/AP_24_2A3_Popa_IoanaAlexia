@@ -1,0 +1,12 @@
+org\example\exceptions\InvalidCommandException.class
+org\example\model\Person.class
+org\example\service\DocumentService.class
+org\example\commands\CommandFactory.class
+org\example\commands\ExportCommand.class
+org\example\commands\ViewCommand.class
+org\example\commands\ReportCommand.class
+org\example\Main.class
+org\example\model\Document.class
+org\example\repository\Repository.class
+org\example\service\RepositoryService.class
+org\example\commands\Command.class

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Repository Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .person { margin-bottom: 20px; }
+        .person h2 { color: #333; }
+        .document { margin-left: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Document Repository Report</h1>
+    #foreach ($personData in $repository)
+        <div class="person">
+            <h2>Person: $personData.personName (ID: $personData.personId)</h2>
+            #if ($personData.documents && !$personData.documents.isEmpty())
+                #foreach ($doc in $personData.documents)
+                    <div class="document">
+                        <p>Document: $doc.name</p>
+                    </div>
+                #end
+            #else
+                <p>No documents found for this person.</p>
+            #end
+        </div>
+    #end
+</body>
+</html>
