@@ -1,5 +1,5 @@
 package org.example.model;
 
-public record Person(int id, String name){
+public record Person(String id, String name){
 }
 
