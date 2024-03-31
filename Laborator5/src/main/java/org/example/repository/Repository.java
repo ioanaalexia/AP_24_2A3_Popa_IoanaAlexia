@@ -47,7 +47,7 @@ public class Repository {
                                 });
                             } catch (IOException e) {
                                 System.out.println("exception when reading filepath");
-                                e.printStackTrace(); // Print stack trace for debugging (optional)
+                                e.printStackTrace();
                             }
                             documents.put(person, personDocuments);
                         } else {
@@ -57,7 +57,7 @@ public class Repository {
                     });
         } catch (IOException e) {
 
-            e.printStackTrace(); // Print stack trace for debugging (optional)
+            e.printStackTrace();
         }
     }
 

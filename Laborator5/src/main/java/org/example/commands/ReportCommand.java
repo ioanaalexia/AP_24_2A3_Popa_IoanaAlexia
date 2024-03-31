@@ -37,7 +37,6 @@ public class ReportCommand implements Command{
             VelocityEngine ve = new VelocityEngine(props);
             ve.init();
 
-            // Încarcă șablonul
             Template template = ve.getTemplate("repositoryReport.vm");
 
             VelocityContext context = new VelocityContext();
@@ -49,12 +48,11 @@ public class ReportCommand implements Command{
             String reportFileName = "repositoryReport.html";
             Files.write(Paths.get(reportFileName), writer.toString().getBytes());
 
-            // Open the report if desktop supported
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
                 Desktop.getDesktop().browse(Paths.get(reportFileName).toUri());
             }
         } catch (Exception e) {
-            e.printStackTrace(); // Consider more nuanced exception handling or logging
+            e.printStackTrace();
         }
     }
 }

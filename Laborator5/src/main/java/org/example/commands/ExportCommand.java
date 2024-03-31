@@ -27,7 +27,6 @@ public class ExportCommand implements Command{
 
         try {
             ObjectMapper mapper = new ObjectMapper();
-            // Assuming getDataForReport() returns the data in a suitable format for JSON serialization
             String json = mapper.writeValueAsString(repositoryService.getDataForReport());
             Files.write(Paths.get(filePath), json.getBytes());
             System.out.println("Data successfully exported to " + filePath);

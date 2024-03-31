@@ -34,7 +34,7 @@ public class Main {
 
                 String[] parts = input.split("\\s+");
                 if (parts.length == 0) {
-                    continue; // No command entered
+                    continue;
                 }
 
                 String commandName = parts[0];
@@ -45,10 +45,10 @@ public class Main {
                     command.execute(commandArgs);
                 } catch (InvalidCommandException e) {
                     System.out.println("Error: " + e.getMessage());
-                    // Additional handling, if necessary, like showing usage help
+
                 } catch (Exception e) {
                     System.out.println("Unexpected error executing command: " + e.getMessage());
-                    // Handle other exceptions
+
                 }
             }
 
