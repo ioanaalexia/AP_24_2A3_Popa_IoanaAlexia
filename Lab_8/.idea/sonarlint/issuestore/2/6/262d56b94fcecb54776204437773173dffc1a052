@@ -1,5 +1,0 @@
-
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Šë(8Â¾á‚ò1
-m	java:S116"SRename this field "genre_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Àßšşÿÿÿÿ
-j	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÿË8Ê¾á‚ò1
-i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Šë(8Ì¾á‚ò1
