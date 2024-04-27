@@ -19,11 +19,11 @@ public class BookRepository {
                 Book book = new Book();
                 book.setId(rs.getInt("id"));
                 book.setTitle(rs.getString("title"));
-                book.setAuthorId(rs.getInt("author_id"));
-                book.setGenreId(rs.getInt("genre_id"));
+                book.setAuthor_id((rs.getInt("author_id"));
+                book.setGenre_id((rs.getInt("genre_id"));
                 book.setLanguage(rs.getString("language"));
-                book.setPublicationDate(rs.getDate("publication_date"));
-                book.setNumPages(rs.getInt("num_pages"));
+                book.setPublication_date(rs.getDate("publication_date"));
+                book.setNum_pages(rs.getInt("num_pages"));
                 books.add(book);
             }
         } catch (SQLException e) {
