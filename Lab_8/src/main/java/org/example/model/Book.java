@@ -3,7 +3,7 @@ package org.example.model;
 
 import java.sql.Date;
 
-public class Book {
+public class Book extends BaseEntity{
     private int id;
     private String title;
     private int author_id ;

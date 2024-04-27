@@ -1,4 +1,5 @@
-package org.example.repository;
+package org.example.service;
+import org.example.repository.BookRepository;
 
 import org.example.model.Book;
 
@@ -6,21 +7,21 @@ import java.util.List;
 
 public class BookService {
 
-    public List<Book> getAllBooks(){
+    private BookRepository bookRepository = new BookRepository();
 
+    public List<Book> getAllBooks() {
+        return bookRepository.findAll();
     }
 
-    public Book getBookById(int id){
-
+    public Book getBookById(int id) {
+        return bookRepository.findById(id);
     }
 
-    public Book createOrUpdateBook(Book book)
-    {
-
+    public Book saveBook(Book book) {
+        return bookRepository.save(book);
     }
 
-    /*void deleteBook(int id)
-    {
-
-    }*/
+    public void deleteBook(int id) {
+        bookRepository.delete(id);
+    }
 }

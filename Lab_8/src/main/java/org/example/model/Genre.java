@@ -1,6 +1,6 @@
 package org.example.model;
 
-public class Genre {
+public class Genre extends BaseEntity{
 
     private int genre_id;
     private String name;
