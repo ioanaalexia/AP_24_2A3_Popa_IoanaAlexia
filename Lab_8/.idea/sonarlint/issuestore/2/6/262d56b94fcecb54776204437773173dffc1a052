@@ -1,8 +1,2 @@
 
-t	java:S116"SRename this field "genre_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Àßšşÿÿÿÿ8°­»ò1
-N
-java:S1068",Remove this unused "genre_id" private field.(™Àßšşÿÿÿÿ8´­»ò1
-E
-java:S1068"(Remove this unused "name" private field.(Ë¥¼8´­»ò1
-Q
-java:S1068"/Remove this unused "description" private field.(ÇÓæâıÿÿÿÿ8´­»ò1
+t	java:S116"SRename this field "genre_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Àßšşÿÿÿÿ8°­»ò1
