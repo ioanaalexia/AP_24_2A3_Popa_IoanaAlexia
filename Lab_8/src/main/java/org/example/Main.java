@@ -1,11 +1,22 @@
 package org.example;
 
+import org.example.repository.Database;
+
+import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Main {
     public static void main(String args[])  {
-        DatabaseInitializer database=new DatabaseInitializer();
+        /*DatabaseInitializer database=new DatabaseInitializer();
         database.initialize(); // Initialize the database structure
+*/
+        Database dbInstance = Database.getInstance();
+        Connection conn = dbInstance.getConnection();
+        if (conn != null) {
+            System.out.println("Conexiunea este activă și gata de utilizare.");
+        } else {
+            System.out.println("Conexiunea nu a fost stabilită.");
+        }
 
         /*Database.ensureConnectionIsOpen(); // Ensure the database connection is open
 

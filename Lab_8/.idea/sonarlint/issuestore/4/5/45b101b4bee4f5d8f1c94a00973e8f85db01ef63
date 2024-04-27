@@ -1,0 +1,14 @@
+
+c
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(Ôš¹˜ùÿÿÿÿ
+]
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(…Ê©š
+Y
+java:S2583"CChange this condition so that it does not always evaluate to "true"(á¢¬
+Q
+java:S6437"6Revoke and change this password, as it is compromised.(Ôš¹˜ùÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(åÃíÇ
+E	java:S106"+Replace this use of System.out by a logger.(‚é€Şûÿÿÿÿ
+@	java:S106("+Replace this use of System.out by a logger.(³ï´›
+E	java:S106+"+Replace this use of System.out by a logger.(Î›Ïûÿÿÿÿ
+@	java:S106."+Replace this use of System.out by a logger.(³ï´›

@@ -1,0 +1,21 @@
+
+p	java:S116	"TRename this field "author_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìóµÓ8¼£¬ò1
+t	java:S116
+"SRename this field "genre_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Àßšşÿÿÿÿ8¼£¬ò1
+|	java:S116"[Rename this field "publication_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñü¯Ğüÿÿÿÿ8¼£¬ò1
+u	java:S116"TRename this field "num_pages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÑˆòüÿÿÿÿ8½£¬ò1
+H
+java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8¿£¬ò1
+K
+java:S1068")Remove this unused "title" private field.(åõò¹ıÿÿÿÿ8¿£¬ò1
+J
+java:S1068	"-Remove this unused "author_id" private field.(ìóµÓ8¿£¬ò1
+N
+java:S1068
+",Remove this unused "genre_id" private field.(™Àßšşÿÿÿÿ8¿£¬ò1
+N
+java:S1068",Remove this unused "language" private field.(ûòÁ‚üÿÿÿÿ8¿£¬ò1
+V
+java:S1068"4Remove this unused "publication_date" private field.(Ñü¯Ğüÿÿÿÿ8À£¬ò1
+O
+java:S1068"-Remove this unused "num_pages" private field.(áÑˆòüÿÿÿÿ8À£¬ò1

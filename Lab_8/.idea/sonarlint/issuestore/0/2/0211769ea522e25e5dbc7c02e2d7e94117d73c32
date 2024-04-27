@@ -1,0 +1,10 @@
+
+µ
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(şÀ­n8ÈÄï€ò1
+S
+java:S6437"6Revoke and change this password, as it is compromised.(Ú˜©8ËÄï€ò1
+G	java:S106"+Replace this use of System.out by a logger.(åÃíÇ8ÌÄï€ò1
+L	java:S106"+Replace this use of System.out by a logger.(Î›Ïûÿÿÿÿ8ÍÄï€ò1
+G	java:S106"+Replace this use of System.out by a logger.(³ï´›8ÎÄï€ò1
+U
+java:S2168"9Remove this dangerous instance of double-checked locking.(ñˆ×*8ĞÄï€ò1
