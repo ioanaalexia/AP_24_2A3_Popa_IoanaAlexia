@@ -1,5 +1,0 @@
-
-p	java:S116"TRename this field "author_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìóµÓ8·èĞò1
-t	java:S116"SRename this field "genre_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Àßšşÿÿÿÿ8·èĞò1
-|	java:S116"[Rename this field "publication_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñü¯Ğüÿÿÿÿ8·èĞò1
-u	java:S116"TRename this field "num_pages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÑˆòüÿÿÿÿ8·èĞò1
