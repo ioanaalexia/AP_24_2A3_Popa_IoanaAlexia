@@ -10,7 +10,7 @@ public class Database {//ca singleton
     private Database() {
         String url = "jdbc:mysql://localhost:3306/library";
         String utilizator = "root";
-        String parola = "Valeria_2004";
+        String parola = "W7301@jqir#";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

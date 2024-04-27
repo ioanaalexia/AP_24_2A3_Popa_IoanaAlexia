@@ -1,0 +1,13 @@
+
+p	java:S116"TRename this field "author_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìóµÓ8ÕôÖ‚ò1
+t	java:S116	"SRename this field "genre_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Àßšþÿÿÿÿ8ÕôÖ‚ò1
+|	java:S116"[Rename this field "publication_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñü¯Ðüÿÿÿÿ8ÕôÖ‚ò1
+u	java:S116"TRename this field "num_pages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÑˆòüÿÿÿÿ8ÖôÖ‚ò1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãù¶ðûÿÿÿÿ8áôÖ‚ò1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÄ·ü8âôÖ‚ò1
+j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡â“Ö8äôÖ‚ò1
+o	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çâåÿÿÿÿÿ8åôÖ‚ò1
+j	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óô ™8Í†Ý‚ò1
+j	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÿË8Î†Ý‚ò1
+j	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿú Š8Ï†Ý‚ò1
+j	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¤Œú8Ï†Ý‚ò1
