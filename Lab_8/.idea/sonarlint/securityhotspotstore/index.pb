@@ -29,3 +29,5 @@ Z
 +src/main/java/org/example/model/Entity.java,0\b\0b57ad3519154ee2208d257fee07f94dfaa3ef5f
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+b
+2src/main/java/org/example/service/BookService.java,4\e\4e0afb3f42ab32527a23feda117f6bd25e7844be
